@@ -10,10 +10,10 @@ This report seeks to develop and refine a home sale price prediction tool that c
 
 ### Report Structure:
 
-    * Data cleaning were done in the data_cleaning.ipynb files
-    * Modules folder contains the function used to run and compare key metrics for various models
-    * Submissions folder contains all predictions submitted to kaggle
-    * Remaining submission.ipynb files contain individual model iterations
+* Data cleaning were done in the data_cleaning.ipynb files
+* Modules folder contains the function used to run and compare key metrics for various models
+* Submissions folder contains all predictions submitted to kaggle
+* Remaining submission.ipynb files contain individual model iterations
 
 ---
 
