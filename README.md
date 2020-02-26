@@ -1,5 +1,7 @@
 # Predicting Home Prices in Ames, Iowa
 
+_submitted: January 17th, 2020_
+
 ### Executive Summary
 
 Zillow is an online housing price estimation and reporting platform used across America. They frequently provide "Estimated home prices" to houses for sale, and not for sale, to help users follow housing market rates. Naturally, more accurate estimates of home values are central to increasing user confidence in Zillow's product. 
@@ -8,10 +10,10 @@ This report seeks to develop and refine a home sale price prediction tool that c
 
 ### Report Structure:
 
-    - Data cleaning were done in the data_cleaning.ipynb files
-    - Modules folder contains the function used to run and compare key metrics for various models
-    - Submissions folder contains all predictions submitted to kaggle
-    - Remaining submission.ipynb files contain individual model iterations
+    * Data cleaning were done in the data_cleaning.ipynb files
+    * Modules folder contains the function used to run and compare key metrics for various models
+    * Submissions folder contains all predictions submitted to kaggle
+    * Remaining submission.ipynb files contain individual model iterations
 
 ---
 
@@ -32,5 +34,3 @@ Finally, the fourth iteration applied the same Ridge model to a select group of 
 ### Conclusions and Next Steps
 
 This report set out to predict home prices from a very detailed and complete home feature dataset. Despite there being 80 features, a reasonable best rmse score of $27,579 was achieved by using the polynomial features that were derived from just 12 out of the 80 features. The Ames data offers more data than is necessary to predict sale price. The 12 features used in the fourth iteration consisted of key traits like overall quality, total square footage and year built. The simplicity of this model will likely translate to other towns and housing data sets. In an effort to improve the Zillow Offers program, more research could be done on identifying the bare minimum traits of a home that a home owner could plug into their home in order to get a quick price estimate and draw them in for further evaluation. Other next steps for improving the model would be to iteratively add more relevant categorical features such as neighborhood and house style in order to improve model accuracy. 
-
-# predicting-home-prices-in-Iowa
